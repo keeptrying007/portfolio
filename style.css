@@ -1,0 +1,34 @@
+* {box-sizing: border-box;}
+
+body{display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 20px;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif, 'Times New Roman', serif}
+
+nav{display: flex;
+background-color: rgb(9, 95, 9);
+flex-direction: row;
+height: 50px;
+justify-content: space-between;}
+
+section{display: flex;
+}
+
+div{font-size: 20px;
+margin: 10px 10px 10px 10px;
+color: #FFFFFF;
+}
+/* aside{background-color: #fae00c ;} */
+
+main{background-color: beige;}
+
+footer{background-color: rgb(9, 95, 9);}
+
+.flex-ctr{display:flex;
+justify-content: center;
+align-items: center;}
+
+nav, footer{grid-column: span 2}
