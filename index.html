@@ -6,20 +6,526 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
 </head>
+
 <body>
     <!-- need to design for mobile, then tablet, then desktop -->
     <nav>
+        <section> 
+            <div class="nav-icon hamburger-box" id="menu-1">
+              <div></div>
+              <div></div>
+              <div></div> 
+            </div>
+            <section id="big-menu">
+              <a href="https://github.com/keeptrying007">Dr. Le</a>
+              <a href="#symptoms">Symptoms</a>
+              <a href="#spa">SPA</a>
+              <a href="#Office-info">Office</a>
+              <div class="button" id="big-menu-close">Close it</div>
+            </section>
+
+
+        </section>
+       <section>
+            <div class="dropdown">
+                <button class="dropbtn" id="projects">PROJECTS</button>
+                <div class="dropdown-content">
+                    <a href="resume/index.html" target="_blank">Resume</a>
+                    <a href="Romeo/index.html" target="_blank">Best dog</a>
+                    
+                </div>
+            </div>
+        </section>  
+        <section class="none-menu">
+            <div><a href="#doctor">Dr.Le</a></div>
+            <div><a href="#symptoms">Symptoms</a></div>
+            <div><a href="#spa">SPA</a></div>
+            <div><a href="#Office-info">Office</a></div>
+            <!-- <div><a href="#preventative">Preventative</a></div> -->
+            <!-- <div><a href="#faqs">FAQs</a></div> -->
+        </section>
         <section>
-        <div>Home</div>
-        <div>Meet Dr. Le</div>
-        <div>Chiropractic</div>
-       </section>
-        <div>Personal</div>
-       </nav>
-       <!-- <aside class="flex-ctr">SIDE BAR</aside>  -->
-       <main class="flex-ctr"><h1>Mike Le Chiropractic Inc</h1></main>
-       <footer class="flex-ctr">FOOTER</footer>
+            <div><a href="#appointment"><button class="appoitnment">Appointment</button></a></div>
+        </section>
+    </nav>
+
+    <main class="container">
+        <article class="welcome" id="home">
+            <h1 class="box-shadow">Dr. Le transitioning to Dr.Developer</h1>
+           
+           <div class="box-shadow1"><p>Welcome explorers!!</p>
+
+            <p>Thank you for visiting my website. I have been a chiropractor in San Francisco since 2001, have helped most patients, and made several deep connetions.  The journey has been wonderful and has afforded a comfortable life. Covid reminded that life is too precisious, time for another adventure, into Front-End Web Development! Let's travel together to produce many awesome projects.</p>
+            
+            <!-- <p>his site has been designed as an introduction to chiropractic, the practice and office policies, and me. </p> -->
+            
+            <!-- <p>Chiropractic is a natural form of health care which does not involve the use of drugs or surgery. The goal is to eliminate the cause of the problems as it relates to the spine and nervous system. As a chiropractor, I embrace a holistic approach to wellness in which health is not defined by the absence of disease, but by the full expression of life. Allow me to assist you in optimizing your health.</p>
+            
+            <p>To augment the chiropractic adjustment, our office offer diathermy, mechanical traction, ultrasound, electrical muscle stimulation, manual therapy, nutritional recommendations and home corrective exercises.</p> -->
+            </div>
+
+            <div class="box-shadow2">
+            <p>Please feel free to contact me via email: myemailconfirmation at gmail dot com.</p>
+            <p>Yours truly,</p>
+            <p>Dr. Mike Le chiropractor (Driven.Adaptable.Practical aka DAP) ----> Dr. Mike Le, Developer(DAPI..Innovative)</p>
+            <div class="social-icons">
+                <a href="https://github.com/keeptrying007" target="_blank">
+                    <i class="fab fa-github"></i></a>
+                <a href="https://www.yelp.com/biz/mike-le-dc-san-francisco" target="_blank">
+                    <i class="fab fa-yelp"></i></a>
+                <a href="https://www.linkedin.com/in/dr-mike-le-d-c-2449596/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank">
+                  <i class="fab fa-youtube"></i></a>
+                  <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i></a>
+            </div>
+            </div>
+        </article>
+     
+        <article class="doctor" id="doctor">
+            <img src="Images/Mike.jpeg" id="mike">
+            <img src="Images/RomeoPool.jpeg" id="romeo-pool">
+            <div class="item3">
+            <h2>Meet Dr.Le, your new Dr. Dev</h2>
+
+            <h3>Skills</h3>	
+            <ul>
+            <li>HTML5, CSS, JavaScript, GitHub</li>
+            <li>  Owner of 2 offices in San Francisco simultanously at one point for over 10 years.  Aside from treating thousands of patients, I supervised three chiropractors and 2 masssage therapists. I code & bill in-house, which require tremendous time manament skills, diplomacy when negotiating with insurance claim adjustors, plantiff attorneys, defendant attoreys.  I also served as an Expert Witness to resolve medical-legal disputes. Went thru many depostions and appeared several times in court. Key to Expert Witness--impartiality, remain calm cool collected, and always speak softly slowly clrearly.</li>
+
+            </ul>
+            <h3> Qualifications</h3>	
+            <ul>
+                <li>General Assembly,<b> Front-End Development</b> - September 29, 2022</li>
+                <li>State of California, <b>License to Practice Chiropractic</b> – September 7, 2001</li>
+                <li>State of California (Dept of Industrial Relations), <b>Qualified Medical Evaluator</b> – March 23, 2002</li>
+                <li>Life Chiropractic College West, <b>Doctor of Chiropractic (Magna Cum Laude)</b> – June 15, 2001</li> 
+                <li>Life Chiropractic College West, <b>Industrial Disability Examiner</b> – June 5, 2001</li>
+                <li>University of California at Berkeley, <b>B. A. Molecular and Cell Biology</b> – December 18, 1997</li>   
+            </ul>  
+            <h3>Experiences</h3>
+            <ul>
+                <li>July, 2004 - current @ Mike Le Chiropractic, Inc., <u style="color: red;">Chiropractor/Ower</u> - 1637 Irving Street, SF, CA 94122.</li>
+                <li>October, 2005 - November, 2014 @ Mike Le Chiropractic, Inc., <u style="color: red;">Chiropractor/Ower</u> - 1050 Larkin Street, SF, CA 94109.</li>
+                <li>October, 2001- October, 2005 @ SF Bay Chiropractic, <u style="color: red;">Chiropractor</u> - 1115 Geary Blvd, SF, CA 94109</li>
+                <li>March 23, 2002- April 15, 2010 for State of California, Department of Industrial Relations, Division of Workers Compensation, Medical Unit- <u style="color: red;">Appointed Qualified Medical Evaluator</u> </li>
+                <li>March, 2000 – June, 2001 @ Life Health Center, <u style="color: red;">Chiropractic Intern</u></li> 
+                <li>September, 1998 - June, 2001 @ Life Dean’s Office, <u style="color: red;">Tutor</u>  Assisted lower quarter students in differential diagnosis, neuromuscular diagnosis, biochemistry, cell biology, chemistry, anatomy and physiology, and infectious disease.</li>
+            </ul>             
+
+            <!-- <p>Dr. Mike Tien Le, D.C. graduated Sigma Cum Laude from Life Chiropractic College West and holds a Bachelor of Arts in Molecular and Cell Biology from the University of California at Berkeley. He began his practice in October of 2001 with professional objectives: Alleviating Pain, Restoring Functions, and Optimizing Health. Dr. Le specializes in auto, work-related, sports/dance injuries as well as preventative care.</p>
+
+            <p>One of the main concepts Dr. Le emphasizes is the relationship between structure and function within the human body. Good spinal structure is essential for good function, whereas poor spinal structure leads to malfunction of the body. By correcting the structure of the spine, you can improve, restore and maintain good function of the body.</p>
+
+            <p>Dr. Le's approach is different to many healthcare providers. His goal is to “provide the best possible care for my patients” through the correct balance of 6 factors, which work together:</p>
+            <ol>
+                <li>A properly functioning nervous system through chiropractic care</li>
+                <li>Proper diet</li>
+                <li>Proper rest</li>
+                <li>At least a minimal amount of exercise…everyday</li>
+                <li>Consumption of lots fresh fruits, vegetables, and clean water daily</li>
+                <li>A positive mental attitude</li>
+                </ol>
+             <p>Along with his extensive training in the field of chiropractic, Dr. Le works with his patients to try and implement all factors of health and realise their true health potential.</p>
+
+            <p>Dr. Le can be contacted by calling 415.682.7798 or email: ask at sfchiropractor dot org.</p>
+
+            <p>Dr. Le lived in Vietnam until the age of nine and speaks fluent Vietnamese. A first generation Asian American, he understands and incorporates Eastern and Western Healing Arts into his practice including the Vacuum Suction.</p> -->
+            <a href="#home" class="red">home</a>
+            </div>
+        </article>
+
+        <article class="symtpoms" id="symptoms">
+            <div class="flash" id="item1">***Click on the following symptoms for its detailed descriptions***</div> 
+            <!-- <div id="item2"><h5>Symptoms</h5></div> -->
+            <img src="Pain.jpeg" id="item3">
+            <!-- <img src="Images/RomeoPool.jpeg" id="item4"> -->
+            <div id = "item4">
+            <h3 class="appear" id="arthritis">Arthritis</h3>
+            <div class="hidden arthritis-text"><p>Almost everyone will suffer from some form of arthritis at one point or another in life. Arthritis literally means “inflammation of a joint” and is commonly the word used to describe pain in the joints. There are many causes, and some, such as osteoarthritis, are due to the natural ageing process. Most people are likely to get some degeneration, or 'wear and tear', later in their lives.</p>
+
+            <p>Symptoms of this form include progressive stiffness and pain without noticeable swelling, fever, or chills. Osteoarthritis is caused when the cartilage covering the bones in a joint becomes eroded and roughened. Tendons and ligaments holding the joint together get weaker and the joint itself may become deformed, painful and stiff. Joints that have been injured or subject to unusual stress, perhaps as the result of a sporting career or heavy manual job, are likely to wear faster.</p>
+
+            <p>Others, such as rheumatoid arthritis, are less common but can affect children as well as adults. There is usually swelling and inflammation with pain and stiffness in the arms, legs, wrists or fingers of the same joints in both sides of the body. Ankylosing Spondylitis is another rare form of arthritis that mainly attacks young men. The problem begins with pain and stiffness in the lower back, thighs and buttocks, it can result in severe inflammation and eventually fusing of some joints of the spine.</p>
+
+            <p>After taking a full case history and conducting an examination which may include X-rays, Dr. Le will make a diagnosis and propose a treatment program. While chiropractic treatment is appropriate for most forms of arthritis, for some it can only give pain relief and you may be referred to your general practitioner for further treatment.</p>
+
+            <p>Although the degeneration of joints cannot be reversed, Dr. Le can regularly adjust them to keep them healthy and mobile, reducing pain and helping to slow further degeneration. In addition, chiropractic care can keep your spine free of the nerve irritation which may prevent your body from fighting disease and healing itself properly.</p>
+
+            <p>Degenerative changes in themselves need not produce symptoms. They do, however, make the spinal column more susceptible to damage. Regular adjustments/manipulations by a chiropractor, together with an appropriate rehabilitation and maintenance plan, can improve movement and reduce the stresses that may cause pain in the future.</p>
+
+            <p>Reducing consumption of potato, tomato, eggplant, and pepper which belong to the nightshade family can be helpful in reducing signs and symptoms. These foods contain alkaloids and are believed to inhibit collagen formation which makes up cartilage.</p>
+
+            <p>Consume products with omega-3 fatty acids like fish and flax oil should help. Vitamins A, C, and E have antioxidant effect on cells. Vitamins C, B6, E, and zinc can enhance collagen production.</p>
+            <hr>
+            </div>
+
+            <h3 class="appear" id="neck">Neck Pain</h3>
+            <div class="hidden neck-text"><p>The neck is comprised of seven individual small bones collectively known as the cervical spine. The neck provides full support to the head, which contains twenty-one bones of its own and has an average weight of fourteen pounds.</p>
+
+            <p>The bones of the neck are arranged in a precise pattern and structure to support the head. A delicate curvature must be maintained at all times to allow a clear channel for the passage of the vital spinal cord which travels through the center of the neck bones, and the equally important nerves which exit the cord in between these bones. The curve of the neck also plays a part in determining the overall shape and structure of the rest of the spine, affecting the entire skeleton and its ability to maintain balance.</p>
+
+            <p>Neck pain can result from muscle tension caused by stress and fatigue, and this tension often leads to headaches, migraines or other pain. In addition, muscle tension can put extra pressure on the joints of the neck which can irritate the spinal nerves. This can give rise to 'referred' pain (the irritation of the nerve in one area can sometimes lead to pain, known as 'referred' pain, in other parts of the body) or numbness or 'pins and needles' in your shoulders, arms and hands. If pain has not improved progressively after several days' rest, a visit to your chiropractor is advisable. Specific chiropractic adjustments can restore mobility to your spine and relieve the pressure on the nerves of your neck. Massage and other techniques can also help to relax the neck muscles, so further reducing the pain.</p>
+
+            <p>Nowadays, we spend a great deal of time sitting, or working at computers, or performing repetitive tasks. This often causes postural problems and muscle tension in the neck, which may give rise to abnormal nerve function. The result may be wear and tear, arthritis or other pain.</p>
+
+            <p>As it supports the weight of your head with the aid of a highly mobile system of muscles and ligaments, the neck is very vulnerable. Falls and blows to the head can cause neck injury, but it has been estimated that 85% of all neck injuries are the result of motor vehicle accidents (1). Whiplash is a general term used to describe any injury (including diving accidents and falls) where the neck has undergone sudden acceleration and deceleration. 50% of people sustaining such injuries still have significant pain eight months after the accident (2), and many suffer intermittent pain for up to two years.</p>
+
+            <p>If you have been in an accident, it is wise to consult your chiropractor as soon as possible to have your spine checked. Your doctor, or the Accident and Emergency department will have checked at the time that you have no fracture, dislocation, paralysis or open wound, but even if they find no serious injury, the nerves branching out from your neck may be under stress as a result of the injury. You may find that you are still in pain months afterwards, and this could cause disability permanently if not corrected.</p>
+
+            <p>Chiropractic manipulation and active rehabilitation of the muscles and other soft tissues will restore normal movement to your neck. Your chiropractor may also prescribe exercises to help you regain strength and flexibility and relieve the long-term pain and discomfort.</p>
+            <hr>
+            </div>
+
+            <h3 class="appear" id="back">Back Pain</h3>
+            <div class="hidden back-text"><br>What causes back pain?<br>
+            -trauma (macro and micro/repetitive)<br>
+            - lifting or carrying heavy weights<br>
+            - sports or other injuries<br>
+            - general 'wear and tear'<br>
+            - poor posture<br>
+            - unsuitable seats or beds<br>
+            - stress<br>
+            - pregnancy<br>
+
+            <p>Back pain/problems are the most common physical complaints among adults in the United States. It affects almost everyone at some time, causing untold misery, stress, restricted movement, and discomfort. It also causes millions of people to take valuable time off work, resulting in decreased production and costing companies enormous sums in sick pay.</p>
+
+            <p>Chiropractic adjustment/manipulation has been recognized as highly effective in treating back pain, and the Industrial Medical Council issued guidelines which recommended manipulation for the relief of acute low back pain.</p>
+
+            <p>Doctors of Chiropractic are trained to diagnose and treat the specific cause of your back pain, and once you have been treated, they may also advise you on an appropriate rehabilitation and maintenance exercise plan to prevent a recurrence.</p>
+
+            <p>The bones of your spine protect the spinal cord; if they lose their normal motion or position, this can irritate the nerve roots that branch off the spinal cord to the organs and tissues of your body. Sciatica is a general term describing pain in the sciatic region, which extends from the base of the spine down the back and side of the upper leg. Unless there is a specific injury to this region, pain here is 'referred' from other areas. The irritation of the nerve in one area can sometimes lead to pain, known as 'referred' pain, in other parts of the body. The nerves that supply the sciatic region come from the lower back.</p>
+
+            <p>In order for the spine to be flexible, the vertebrae are joined together by soft tissue structures known as discs. Each disc is made up of two parts - a central soft core and outer rings of tough cartilage. The discs allow movement and also help to absorb shock. A slipped disc is the rather inaccurate term used to describe the condition, often in the lower back, where trauma or 'wear and tear' have caused damage to the outer rings of cartilage, so that the core is squeezed outwards. This can eventually result in a bulge which can press on the spinal cord, the nerve root or the nerve itself. It can cause excruciating pain, either in the back or referred elsewhere - for example in the lower leg or foot. Chiropractic treatment can mobilize the spine to reduce any pressure around the spinal cord or nerves. Trigger points sometimes referred to as “fibrositis” are very common and related to back pain. They occur in the neck or shoulders (often caused by bad posture or stress) or sometimes in the sacro-iliac region at the base of the spine. Painful knots form within muscles which have gone into spasm - a reaction which the body triggers in order to tighten muscles round a problem area to prevent further injury. This is why the condition so often occurs in patients who have had a back pain problem for some time, and it can make the treatment of the original complaint more difficult by putting unequal pressures on joints when they have been adjusted. Your chiropractor will therefore use manipulation to adjust the relevant joint, but also deep massage and soft tissue work to relieve the condition. Since the knots of muscle are often very tender, the soft tissue treatment may be painful at first.</p>
+            <hr>
+            </div>
+
+            <h3 class="appear" id="headache">Headache</h3>
+            <div class="hidden headache-text"><p>Headaches are very common, and there are many different types and causes; people often suffer from more than one type. If you suffer from stress, through worry, overwork or anxiety, a tension headache, arising from muscle tension in your neck and shoulders, may often be the result.</p>
+
+            <p>Even more debilitating are migraines - severe headaches which can last for several days, and may also be accompanied by dizziness, nausea, irritability, and vision disturbances. Some forms of migraine appear to stem from nerve stress in the vertebrae of the neck or may, again, be triggered by muscle tension.</p>
+
+            <p>Other causes of headaches include sinus infections, dehydration, allergies and visual strain for which spectacles should be prescribed.</p>
+
+            <p>Your chiropractor is trained to diagnose the cause of your headache, and treat you accordingly, or refer you elsewhere if appropriate. Treatment involves specific adjustments, particularly to the neck and upper back, and, particularly for tension headaches, soft tissue massage. This may also reduce the frequency or severity of some forms of migraine and allows the body to return to normal function and bring lasting relief. You may also be given an appropriate rehabilitation and maintenance plan to prevent a recurrence of the problem.</p>
+
+            <p>The painkilling drugs so often used to treat headaches do not address the cause, and so cannot bring the improvement that chiropractic can offer. Drugs only mask the pain.</p>
+            <a href="#home" class="red">home</a>
+            
+            <hr>
+            <br>
+            </div>
+
+            <h3 class="appear" id="sports">Sports Injuries</h3>
+            <div class="hidden sports-text"><p>Sports injuries are very often no more than everyday problems that have been exposed when an 'occasional athlete' over-stresses his or her body when taking up a new activity. They may include:</p>
+            <ul>
+            <li>poor gait or posture</li>
+            <li>lack of fitness</li>
+            <li>inadequate equipment</li>
+            </ul>
+            <p>However, participating regularly in any sporting activity may also leave you open to the possibility of overtraining, over -use or repetitive strain injuries. These can have harmful, long-lasting effects whatever your age, so it is important that you learn to recognise the signs if you intend working hard towards your sporting goal. They may include:</p>
+            <ul>
+            <li>poor practices and performances</li>
+            <li>loss of weight</li>
+            <li>joint or muscle pain without injuries</li>
+            <li>nausea</li>
+            <li>colds or stuffy nose</li>
+            <li>depression, irritability, insomnia or anxiety</li>
+            </ul>
+            <p>Remember that you will be more tired, and therefore more at risk of injury, at the end of a day's work, or of an exercise session.</p>
+
+            <p>Chiropractic treatment for sports injuries concentrates on adjustments to your spine, joints and muscles, so allowing them to move correctly, and advice on rehabilitation and maintenance exercises to improve strength and flexibility. (Long-term reliance on joint supports will reduce the range of movement and weaken the muscles; such supports will only be prescribed by your chiropractor when necessary). As chiropractic does not involve drugs or surgery, there is little risk of side-effects.</p>
+
+            <p>Your chiropractor has learnt many techniques and procedures to deal with sports injuries. In addition to the treatment of injuries, practitioners can carry out pre-season checks on athletes to identify, treat and strengthen any weak areas before injuries occur, and also conduct regular check-ups.</p>
+            <hr>
+            </div>
+
+             <h3 class="appear" id="work">Work-related Injuries</h3>
+            <div class="hidden work-text"><p>Dr. Le is an Industrial Disability Examiner and a Qualified Medical Evaluator appointed by the Industrial Medical Council. To assist you with any Workers' Compensation questions you may have, please review the following information.</p>
+
+            <p>If you believe you have been injured at work, you must immediately notify your supervisor. For specific injuries, you must report the date that the incident occurred. For Cumulative or Repetitive Stress Injury, you must report the date you first suffered as a result of the injury plus the date you knew or concluded that the cause was your present or previous employment. You have 30 days from the day you first suffer to report the injury.</p>
+            
+            <p>Workers’ Compensation covers:</p>
+            <ol>
+            <li>Medical Treatment (in the Workers’ Compensation system, this includes any treatment necessary to cure or relieve the industrial injury</li>
+            <li>Temporary Disability Payments</li>
+            <li>Permanent Disability Payments</li>
+            <li>Vocational Rehabilitations Services</li>
+            <li>Death Benefit</li>
+            </ol>
+
+            <p>You will need to file “Employee’s Claim For Workers’ Compensation Benefits” which can be obtained from your supervisor. Due to new regulations, your employer and their insurer has control over which physicians assesse the injured worker. You will have to go to three different physicians within the company’s Medical Provider Network (MPN). Dr. Mike Le is in most companies' MPNs. Once assessed by the physicians, you may choose your own chiropractor and are entitled to up to 24 visits per injury. Alternatively, you can pre-designate your own chiropractor to act as your Primary Care Physician in the Workers’ Compensation system.</p>
+
+            <p>Contact Dr. Mike Le for a consultation and guidance with the process on 415.682.7798 for (M,W, F) or email info@sfchiropractor.org.</p>
+
+            <p>NOTICE: Making a false or fraudulent Workers' Compensation Claim is a felony subject to up to five years in prison or a fine of up to $50,000 or double the value of the fraud, whichever is greater, or by both imprisonment and fine.</p>
+            <hr>
+            </div>
+
+            <h3 class="appear" id="repetitive">Repetitive Stress or Cumulative Injury</h3>
+            <div class="hidden repetitive-text"><p>The 1997 Occupational Safety and Health reported that “in the past 10 years, more and more cases of workers afflicted with carpal tunnel syndrome have been reported in medical literature. One reason for this increase may be that automation and job specialization have fragmented workers’ task to the point where a given job may only involve only a few (hand and wrist) manipulations performed thousands of times per workday.”</p>
+
+            <p>People with RSI can report symptoms ranging from weakness and clumsiness in the hands, together with altered sensations such as numbness of the thumb, index finger, the middle and radial part of the ring finger. Their problems can be so serious that they incapacitate the hands and fingers, cause pain and discomfort and loss of time and money in the workplace.</p>
+
+            <p>Many medical professionals attempt to resolve these problems by surgical procedures, cutting the ligament or increasing the space in the carpal tunnel. However, about 80% of those who undergo such surgery continue to experience pain and need further surgery.</p>
+
+            <p>Chiropractic believes that surgical procedure is a radical treatment and should only be used as a last resort. Chiropractic treatment is non-invasive and the effective way to alleviate or cure such problems. This form of treatment should be sought before having someone invade your body.</p>
+            <hr>
+            </div>
+             <h3 class="appear" id="auto">Auto Injuries</h3>
+             <div class="hidden auto-text"><p>Headaches are very common, and there are many different types and causes; people often suffer from more than one type.</p>
+
+            <p>If you suffer from stress, through worry, overwork or anxiety, a tension headache, arising from muscle tension in your neck and shoulders, may often be the result.</p>
+
+            <p>Even more debilitating are migraines - severe headaches which can last for several days, and may also be accompanied by dizziness, nausea, irritability, and vision disturbances. Some forms of migraine appear to stem from nerve stress in the vertebrae of the neck or may, again, be triggered by muscle tension.</p>
+
+            <p>Other causes of headaches include sinus infections, dehydration, allergies and visual strain for which spectacles should be prescribed.</p>
+
+            <p>Your chiropractor is trained to diagnose the cause of your headache, and treat you accordingly, or refer you elsewhere if appropriate. Treatment involves specific adjustments, particularly to the neck and upper back, and, particularly for tension headaches, soft tissue massage. This may also reduce the frequency or severity of some forms of migraine and allows the body to return to normal function and bring lasting relief. You may also be given an appropriate rehabilitation and maintenance plan to prevent a recurrence of the problem.</p>
+
+            <p>The painkilling drugs so often used to treat headaches do not address the cause, and so cannot bring the improvement that chiropractic can offer. Drugs only mask the pain.</p>
+            <hr>
+            </div>
+
+            <h3 class="appear" id="stress">Stress</h3>
+            <div class="hidden stress-text"><p>Advancement and success or changes come with responsibilities and stress. We need to continually keep up with society or we will fall behind. School, work, deadlines, driving, waiting in line at the grocery, and relationship or lack off cause stress. Did you know that too much stress can put you at risk to serious disorders including high blood pressure, diabetes, asthma, headaches, and immunological problems? Stress causes tension , anxiety, reclusiveness, anger, pessimism, resentment, and increased irritability. It can lead to clinical depression.</p>
+        
+            <p>The major problem with stress is that the body can not adapt. If your body can not adapt, it will break down. First to begin is an abnormal function of your nervous system. Eventually, it will overload and causes other problems.
+        
+            <p>There is no real cure for stress. Some people choose to go shopping, take vacations, exercise, eat, or do some unthinkable activity to release stress. Chiropractic care is a safe and effective mean of alleviating the stress thus allowing your body to adapt to changes. The adjustment restores proper alignment of the body thereby allowing your brain to communicate freely with the rest of your body.</p>
+            <a href="#home" class="red">home</a>
+            </div>           
+        </div>
+        </article>
+        <br>
+        <hr>
+
+        <article class = "appointment" id="appointment">
+            <h1>Appointment Form</h1>
+            <p>Please fill out this form with the required information</p>
+            <form action=''>
+              <fieldset>
+                <label>Enter Your First Name: <input type="text" name="first-name" required /></label>
+                <label>Enter Your Last Name: <input type="text" name="last-name" required /></label>
+                <label>Enter Your Email: <input type="email" name="email" required /></label>
+                <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+              </fieldset>
+              <fieldset>
+                <label><input type="radio" name="pain-maintenace" class="inline" /> Pain Care</label>
+                <label><input type="radio" name="pain-maintenace" class="inline" /> Maintenance Care</label>
+                <label>
+                  <input type="checkbox" name="terms" class="inline" required /> I accept the <a href="#">terms and conditions</a>
+                </label>
+              </fieldset>
+              <fieldset>
+                <label>Upload a profile picture: <input type="file" name="file" /></label>
+                <label>Input your age (years): <input type="number" name="age" min="13" max="120" />
+                </label>
+                <label>How did you hear about Dr. Mike Le, D.C.?
+                  <select name="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">Friends & family</option>
+                    <option value="2">Social Media</option>
+                    <option value="3">Printed Media</option>
+                    <option value="4">Other</option>
+                  </select>
+                </label>
+                <label>What is your goal for care?
+                  <textarea name="bio" rows="3" cols="30" placeholder="Alleviating pain, restoring functions, and/or optimizing health?"></textarea>
+                </label>
+              </fieldset>
+              <p class="alert"></p>
+              <input type="submit" value="Submit" />
+            </form>
+
+        <a href="#home" class="red">home</a>
+
+        </article>
+
+        <hr>
+
+        <article class = "spa" id="spa">
+
+            <h2>Skills, Philosophy & Art</h2>
+
+            <div id="piano">
+                <div class="creator">Dr. Dev</div>
+                <div class="keys">
+                  <div class="key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+          
+                  <div class="key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+          
+                  <div class="key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                  <div class="key black--key"></div>
+                </div>
+              </div>
+
+            <!-- <p>Chiropractic care consists of three distinct phases of care. Unfortunately, most people don’t seek care until they are in pain.</p>
+
+            <p>The Initial Intensive phase helps relieve pain, decrease inflammation, and return to normal activities. Pain is the motivating factor for seeing a chiropractor in this initial period.</p>
+
+            <p>The next phase of care is the Rehabilitative Corrective. This period aims at restoring proper motion and alignment, correct adverse spinal pattern, and facilitate proper tissue repair.</p>
+
+            <p>The third phase is the Maintenance/Wellness phase. Wellness care has the objectives of preventing arthritis, insure nerve flow resiliency, and health and longevity. Wellness is a way of life, an integrated enjoyable approach to living that emphasize the importance of achieving harmony in all parts of the person, mind, body, and spirit. The purpose of care is to restore the whole person and not to treat isolated symptoms or diseases.</p>
+
+            <p>It is important to get help when in pain, but why not prevent the discomfort in the first place. You brush your teeth daily to prevent tartar, cavity, and to ensure good breath. The teeth are there for chewing and for aesthetic reasons. You even seek a dentist every six months for check up. However, you can not “brush” your spine and your spine houses the central core of your existence. It is the foundation of your body and houses the regulator (your nervous system) of every cell, tissue, and organ system. Why not have a trained doctor help maintain it and optimize your health?</p> -->
+            <a href="#home" class="red">home</a>  
+        </article>
+       
+
+        <br>
+       
+        <article class = "Office-info" id="Office-info">
+            <h2>Office Information</h2>
+            <div class = "hours">
+
+                <p>READY TO CREATE</p>
+
+            </div>
+            <!-- <p>Our Inner Sunset District office is located at 1637 Irving Street between 17th & 18th Avenue. From Downtown San Francisco, take N Judah, get off 19th Avenue, walk 1 block down, turn right. Easy!</p>
+            <p>WE ARE OPEN:</p>
+            <ul>
+                    <li>Monday:	9-1pm   &   2-7pm</li>
+                    <li>Wednesday:	9-1pm   &   2-7pm</li>
+                    <li>Friday:	9-1pm   &   2-7pm</li>
+            </ul>
+           
+            <p>Our main focus is the chiropractic adjustment, but to augment treatments our offices also offer diathermy, mechanical traction, ultrasound, electrical muscle stimulation, manual therapy, nutritional recommendations and home corrective exercises.</p>
+            
+            <h4>New Patient Procedures for Care</h4>
+            
+            <p">Step One (approximately 10 minutes)*</p>
+            <p><li>All new patients are requested to fill out personal health history questionaire and provide other necessary information.</li></p>
+            
+            <p>Step Two (7-10 minutes)</p>
+            <p><li>A consultation with the doctor to discuss your health problems and determine what may be the cause.</li></p>
+            
+            <p>Step Three (10-15 minutes)</p>
+            <p><li>A comprehensive examination and evaluation including those tests (ie. x-rays) necessary to determine the precise cause of your problem.</li></p>
+            
+            <p>Step Four (7 minutes)</p>
+            <p><li>You will be given a Report of Findings, at which time the cause of your problem will be discussed along with a thorough explanation of how chiropractic works and results can be obtained. You will also be advised on our practice policies and procedures.</li></p>
+            
+            <p>Step Five (approximately 15 minutes)</p>
+            <p><li>Both doctor and patient agree to commence treatment and chiropractic care begins. The type of care you need and an estimate of future care will be explained to you. Also, additional explanations will be given on different types of care available.</li></p>
+            
+            <p>*Expect to be in our office for 1 to 1.5 hours for your first visit.</p> -->
+            <a href="#home" class="red">home</a>
+           
+        </article>
+
+
+        <!-- <article class="preventative" id="preventative">
+            <h2>Preventative Health</h2>
+            <p>Chiropractic care consists of three distinct phases of care. Unfortunately, most people don’t seek care until they are in pain.</p>
+
+            <p>The Initial Intensive phase helps relieve pain, decrease inflammation, and return to normal activities. Pain is the motivating factor for seeing a chiropractor in this initial period.</p>
+
+            <p>The next phase of care is the Rehabilitative Corrective. This period aims at restoring proper motion and alignment, correct adverse spinal pattern, and facilitate proper tissue repair.</p>
+
+            <p>The third phase is the Maintenance/Wellness phase. Wellness care has the objectives of preventing arthritis, insure nerve flow resiliency, and health and longevity. Wellness is a way of life, an integrated enjoyable approach to living that emphasize the importance of achieving harmony in all parts of the person, mind, body, and spirit. The purpose of care is to restore the whole person and not to treat isolated symptoms or diseases.</p>
+
+            <p>It is important to get help when in pain, but why not prevent the discomfort in the first place. You brush your teeth daily to prevent tartar, cavity, and to ensure good breath. The teeth are there for chewing and for aesthetic reasons. You even seek a dentist every six months for check up. However, you can not “brush” your spine and your spine houses the central core of your existence. It is the foundation of your body and houses the regulator (your nervous system) of every cell, tissue, and organ system. Why not have a trained doctor help maintain it and optimize your health?</p>
+            <a href="#home" class="red">home</a>
+        </article> -->
+
+        <!-- <article class = "faqs" id="faqs">
+            <h2>Frequently Asked Questions</h2>
+            <h3>How Does Chiropractic Work?</h3>
+            <p>Chiropractic works by restoring your own inborn ability to be healthy. When under the proper control of your nervous system, all the cells, tissues, and organs of your body are designed to resist disease and ill health. The chiropractic approach to better health is to locate and help remove interferences to your natural state of being healthy. A common interference to the nervous system is the 24 moving bones of the spinal column. A loss of normal motion or position of these bones can irritate or impair the function of the nervous system. This can disrupt the transmission of controlling nerve impulses. With improved spinal function there is often improved nervous system function. Your chiropractic doctor can help remove interferences that may be impairing normal health. Since the primary focus of your care is improved nervous system function, chiropractic can have a positive effect on many health conditions not normally thought of as "back" problems</p>
+
+            <h3>How long does a treatment take?</h3>
+            <p>The first visit takes, on average, about 1 hour. Following visits range from 30 minutes to 1 hour, but this will vary according to your condition and your needs. Refer to New Patients Procedures for what to expect on your first visit.</p>
+
+            <h3>How long will it take to get better?</h3>
+            <p>Your recovery is dependent on many factors - the problem, the length of time you have had it and your own commitment to any rehabilitative exercises and maintenance visits which your chiropractor may recommend.</p>
+
+            <h3>How often do I need to come for treatment?</h3>
+            <p>An average course of treatment may entail five or six visits over two or three weeks, but every case is assessed individually, and it is important to keep your appointments, and make regular visits. Discuss this with your chiropractor, who will explain your treatment program to you.</p>
+
+            <h3>What is an Adjustment?</h3>
+            <p>A Chiropractic adjustment is the art of using a specific force in a precise direction, applied to a joint that is fixated, "locked up", or not moving properly. This adds motion to the joint, helping the bones gradually return to a more normal position and motion. The purpose of this safe and natural procedure is improved spinal function, improved nervous system function and improved health.</p>
+
+            <p>There are many ways to adjust the spine. Usually the doctor's hands or a specially designed instrument delivers a brief and highly-accurate thrust. Some adjusting methods are quick, where as others require a slow and constant pressure.</p>
+
+            <p>After years of training and clinical experience, each chiropractic doctor becomes highly skilled in the delivery of a variety of adjusting approaches.</p>
+
+            <h3>What is the popping noise of the adjustment?</h3>
+            <p>When the two surfaces of a joint are moved apart rapidly, as happens in a chiropractic adjustment, there is a change of pressure within the joint space. This may sometimes cause a bubble of gas to 'pop' - but this sound is not significant, and does not hurt.</p>
+
+            <h3>Have I got a “trapped nerve”?</h3>
+            <p>These are common, general terms used to describe a multitude of conditions. Your chiropractor will make a more specific diagnosis and explain your condition to you.</p>
+
+            <p>While commonly associated with the spine, the pinched nerve (compressive lesion) is actually rare. Researchers suggest that only 10% to 15% of spine related problems are caused by direct pressure of bone on nerve tissue! This can result in numbness, burning, or a "pins and needles" feeling. More frequently, nerves are irritated (facilitative lesion). This is caused when nerve tissue is rubbed, scraped, stretched by a loss of spinal curve, or irritated by malfunctioning spinal joints.</p>
+
+            <h3>What about the “slipped disc”?</h3>
+            <p>A person can’t technically have a "slip” disc. The intervertebral disc is a pad of cartilage type material situated between spinal bones. Each disc serves as a connector, spacer and shock absorber for the spine. A soft, jellylike center is contained by outer layers of fibrous tissue. Healthy discs help allow normal turning and bending.</p>
+
+            <p>Because of the way each disc is attached to the vertebrae above and below, a disc cannot "slip." However, trauma or injury to the spine can cause discs to tear, bulge, herniate, or worse, rupture. This can be quite painful, as the soft center of the disc leaks, putting pressure on the adjacent nerve roots and spinal cord. While results cannot be guaranteed, many patients have avoided needless surgery or a dependency on pain pills, by choosing chiropractic care for their disc-related health problem.</p>
+
+            <h3>Will treatment hurt?</h3>
+            <p>Adjustment/manipulation, when carried out correctly by a qualified practitioner, is not painful. If you have acute muscle spasm, when even the lightest touch hurts, there may be some discomfort. Sometimes, if you have had a problem for some time, you may feel sore whilst your body starts to adjust. Your chiropractor will tell you if this is likely to happen.</p>
+
+            <h3>Are all patients adjusted in the same way?</h3>
+            <p>No. Your treatment program will be tailored to your specific needs.</p>
+
+            <h3>Should I bring my family for chiropractic checks?</h3>
+            <p>Yes. The strength of chiropractic is that it can help prevent discomfort, pain and even disease, and is suitable for everyone. It is entirely appropriate to visit a chiropractor even if you have no pain, as restrictions in movement can often be detected before symptoms appear.</p>
+
+            <h3>Is chiropractic treatment safe?</h3>
+            <p>Chiropractic is remarkably safe when treatment is carried out by a properly qualified practitioner. Your chiropractor is trained to recognize conditions which require referral elsewhere, and can treat you even after surgery.</p>
+
+            <h3>Why should I return if I'm feeling fine?</h3>
+            <p>our chiropractor has treated you, so allowing your body to heal, but if you continue the lifestyle which caused the original condition, regular treatment should also continue. The choice, however, is yours.</p>
+
+            <h3>Can I adjust myself?</h3>
+            <p>Is there anything wrong with me 'cracking ' my neck or back myself? No, you cannot properly control an adjustment to yourself and your relief may only be temporary. If you feel you want to 'crack' your joints, it is because you need an adjustment. Consult your chiropractor!</p>
+
+            <h3>Am I too young?</h3>
+            <p>Spinal trauma can occur at birth, some parents have their newborns checked for the Vertebral Subluxation Complex. Later, learning to walk, ride a bicycle, and other childhood activities can cause spinal problems. While a bandage and some comforting words can help a skinned knee, the unseen damage to the child's spine is the unique domain of a chiropractic doctor. Many childhood health complaints that are brushed off as "growing pains" can often be traced to the spine. Regular chiropractic checkups can identify these problems and help avoid many of the health complaints seen later in adults.</p>
+
+            <h3>Am I too old?</h3>
+            <p>More and more people are consulting chiropractic doctors, especially in their later years. With growing concerns about overmedication and the side effects of combining various prescription drugs, safe, natural chiropractic care is growing in popularity. Restoring better spinal function can help improve mobility, vitality, endurance, and appetite. Many patients report improvement with arthritic symptoms and other chronic ailments often associated with the aging process.</p>
+
+            <p>The adjusting techniques used by your doctor will be modified for maximum comfort and results. As we get older and wise, the simplicity and effectiveness of chiropractic care becomes more and more obvious.</p>
+
+            <h3>Will my doctor approve?</h3>
+            <p>Increasingly, medical doctors are recognizing chiropractic as an effective complementary treatment, particularly for back pain. However, some are less keen to refer patients to chiropractors. You do not need a MD's referral to visit a chiropractor.</p>
+            <a href="#home" class="red">home</a>
+        </article> -->
+
+    </main>
+
+       <footer>© 2012 Mike Le Chiropractic, Inc. All Rights Reserved</footer>
+ 
+
 
    <script src="app.js"></script> 
 </body>
