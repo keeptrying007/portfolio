@@ -14,6 +14,7 @@ nav{display: flex;
 }
 
 .self{text-align: center;
+  color: red;
     animation: skew 3s infinite;
     transform: skew(20deg);
     animation-direction:alternate;
