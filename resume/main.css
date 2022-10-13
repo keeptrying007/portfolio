@@ -15,17 +15,17 @@ nav{display: flex;
 
 .self{text-align: center;
   color: red;
-    animation: skew 3s infinite;
+    animation: skew 5s infinite;
     transform: skew(20deg);
     animation-direction:alternate;
    }
   
   @keyframes skew {
     0% {
-      transform: skewX(40deg);
+      transform: skewX(30deg);
     }
     100% {
-      transform: skewX(-40deg);
+      transform: skewX(-30deg);
     }
   }
 

@@ -412,7 +412,7 @@ nav, footer{grid-column: span 2}
   }
   
   form {
-    width: 60vw;
+    width: 70vw;
     min-width: 300px;
     max-width: 500px;
     margin: 0 auto;
@@ -440,8 +440,8 @@ nav, footer{grid-column: span 2}
   input,
   textarea,
   select {
-    margin: 10px 0 0 0;
-    width: 100%;
+    margin: none;
+    width: 99%;
     min-height: 2em;
   }
   

@@ -31,10 +31,13 @@ nav > a:hover{background-color: yellow;}
     justify-content: center;
     align-items: center;
 }
+
+
 .pic1, .pic2{border: 5px solid hotpink;
     border-radius: 50%;
-    margin: -30px;
+    
 }
+
 img{border: 5px solid hotpink;}
 
 
@@ -57,7 +60,8 @@ img{border: 5px solid hotpink;}
     color: white;
     border: 2px solid hotpink;
     text-align: justify;
-    font-size: 25px;}
+    font-size: 25px;
+    }
 
 .middle-item{grid-column: 2 / 3;
     border: 2px solid hotpink;
